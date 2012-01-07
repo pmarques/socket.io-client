@@ -121,12 +121,12 @@ function suite (name, fn) {
 function server (name, fn) {
   currentSuite[name] = port;
 
-  var io = sio.listen(port);
-  io.configure(function () {
-    io.set('transports', [transport]);
-  });
+  // var io = sio.listen(port);
+  // io.configure(function () {
+    // io.set('transports', [transport]);
+  // });
 
-  fn(io);
+  // fn(io);
   port++;
 };
 
