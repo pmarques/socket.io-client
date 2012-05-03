@@ -24,9 +24,9 @@
     }
   , "devDependencies": {
         "expresso": "0.7.7"
-      , "express": "2.3.11"
+      , "express": "2.5.0"
       , "jade": "0.12.1"
-      , "stylus": "0.13.3"
+      , "stylus": "latest"
       , "socket.io": "0.8.5"
       , "socket.io-client": "0.8.5"
     }
